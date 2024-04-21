@@ -1,0 +1,28 @@
+# Sea Teste - Relatório e Documentação
+
+## Descrição do Projeto
+Sea Teste é uma aplicação desenvolvida para avaliar a qualidade e usabilidade de um sistema de gerenciamento de funcionários. O objetivo principal é identificar bugs, comportamentos inesperados e sugerir melhorias com base no protótipo fornecido.
+
+## Metodologia de Avaliação
+A avaliação da aplicação foi realizada através da análise dos requisitos do protótipo fornecido e da comparação com a implementação atual da aplicação. Foram identificadas diversas telas e funcionalidades para revisão, onde cada problema encontrado foi documentado, incluindo descrição detalhada, comportamento esperado e sugestão de solução, quando aplicável.
+
+## Resultados da Avaliação
+O relatório de avaliação detalha os problemas identificados na aplicação, incluindo bugs, inconsistências de layout e sugestões de melhorias. Cada problema é descrito em detalhes, com o comportamento esperado e sugestão de solução correspondente.
+
+### Exemplos de Problemas Identificados
+- **Bug #1:** Cor incorreta do botão "Ver apenas ativos"
+- **Bug #2:** Ausência de menu suspenso de edição/exclusão de funcionários
+- **Bug #3:** Botão "Próximo passo" habilitado mesmo quando a etapa não está concluída
+- ... (outros problemas identificados)
+
+## Teste Automatizado
+Foi implementado um teste automatizado utilizando o framework Cypress para validar a funcionalidade da página de "Novo Funcionário". O teste verifica a existência e preenchimento dos campos obrigatórios, cria um novo funcionário, e valida as respostas da API. Devido a um bug no botão "Adicionar EPI", essa funcionalidade não pôde ser automatizada.
+
+## Como Executar os Testes
+Para executar os testes automatizados, siga as instruções abaixo:
+1. Clone o repositório do projeto.
+2. Instale as dependências do projeto usando o comando `npm install`.
+3. Execute os testes usando o comando `npm run test`.
+
+## Sugestões e Próximos Passos
+Com base nos resultados da avaliação e nos testes automatizados, recomenda-se uma revisão detalhada dos problemas identificados para garantir a conformidade com os requisitos do protótipo e melhorar a experiência do usuário. Além disso, sugere-se implementar as correções e melhorias propostas, bem como continuar a desenvolver e testar novas funcionalidades para aprimorar a aplicação.
